@@ -1,0 +1,14 @@
+.sidebar{
+ 
+  left: 0;
+  height: 800px;
+  box-shadow: 0px 1px 0px 1px #dcdcdc;
+  background-color: #34495e;
+  /* overflow-y: auto; */
+  color: #dcdcdc;
+  transition: all 0.2s ease-in-out 0s
+}
+.item{
+    text-decoration: none;
+    color:  #dcdcdc;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+
+.news_slider{
+    background-color: #dfdfdf;
+    height: 500px;
+    margin-top: 100px;
+}
+.news_container{
+    padding: 1rem 3rem;
+}
+.news_head{
+    text-align: center;
+}
+.news_heading{
+    padding: 10px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+}
+.news_contants{
+    display: flex;
+    justify-content: space-around;
+}
+.news_content{
+    margin-top: 60px;
+}
+.news_icon_contents{
+    display: flex;
+    align-items: center;
+}
+.news_icon_head{
+    margin-right: 10px;
+}
+.news_content_btn{
+    background-color: #5C98F3;
+    padding: 6px 24px;
+    border-radius: 5px;
+    outline: none;
+    border-color: none;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+.news_dot:active{
+    background-color: red;
+}
+.news_dot{
+    height: 15px;
+    cursor: pointer;
+    background-color: black;
+    width: 15px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 34px;
+}
+.newss{
+    display: flex;
+    justify-content: center;
+    padding-top: 59px;
+}
+@media (max-width:767px){
+    .news_contants{
+        display: block;
+    }
+    .news_slider{
+        height: 900px;
+    }
+}

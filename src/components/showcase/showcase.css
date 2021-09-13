@@ -1,0 +1,79 @@
+.showcase_slider{
+  background: url(../../images//home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 860px;
+  background-attachment: fixed
+}
+
+
+.showcase_head{
+  text-align: center;
+  color: white;
+  padding-top: 116px;
+}
+.showcase_heading{
+font-size: 38px;
+}
+.showcase_para{
+  font-size: 20px;
+}
+.showcase_slider_container{
+  padding: 1rem 3rem;
+}
+.showcase_span{
+  background-color: white;
+  border-radius: 16px;
+  height: 18px;
+  width: 19px;
+  cursor: pointer;
+  margin-right: 10px;
+  transform: scale(1.1);
+  transition: all ease .9s;
+}
+.showcase_span:hover{
+  background-color: rgb(161, 161, 161);
+}
+.showcase_span_parent{
+     display: flex;
+     justify-content: center;
+     margin-top: 80px;
+}
+.showcase_profies{
+flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 84px;
+}
+.showcase_profile_image{
+  border-radius: 50%;
+  cursor: pointer;
+  width: 220px;
+  height: 220px;
+}
+.showcase_profile_heading{
+  color: white;
+  margin-bottom: 0;
+}
+.showcase_profile_main{
+  padding-left: 20px;
+  font-family: 'Lilita One', cursive;
+  font-weight: 100;
+}
+
+
+.showcase_profile_slider:hover .showcase_profile_image {
+  transform: scale(1.1);
+  transition: all ease .9s;
+}
+.showcase_profile_para{
+  color: white;
+  margin-top: 13px;
+}
+
+@media (max-width:767px){
+  .showcase_slider{
+      height: 1600px;
+  }
+}

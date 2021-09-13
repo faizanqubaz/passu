@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+.staff_slider{
+    background-color: white;
+    height: 800px;
+}
+.staff_container{
+    padding: 1rem 6rem;
+}
+.staff_head{
+    text-align: center;
+}
+.staff_heading{
+    font-size: 23px;
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.staff_heading_2{
+    font-size: 23px;
+    color: black;
+    font-family: 'Philosopher', sans-serif; 
+    margin-bottom: 0;
+}
+.staff_head_paras{
+    margin-top: 4px;
+    font-size: 14px;
+}
+.staff_head_parass{
+    line-height: 20px;
+}
+.staff_img{
+    height: 350px;
+    width: 360px;
+}
+.staff_head_icons{
+    display: flex;
+    align-items: center;
+}
+.staff_icon_head{
+    color: saddlebrown;
+    margin-right: 20px;
+
+}
+.staff_listIcon{
+    font-size: 29px;
+    position: absolute;
+    top: 196px;
+    left: 0px;
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+
+}
+.staff_imagey{
+    transform: translateX(760px);
+ transition-property: transform;
+ transition-duration: 10s;
+  opacity: 1;
+    margin: 8px;
+}
+.staff_imagez{
+    transform: translateX(-760px);
+ transition-property: transform;
+ transition-duration: 10s;
+  opacity: 1;
+    margin: 8px;
+}
+.staff_listIcon2{
+    font-size: 29px;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    top: 196px;
+    color: white
+
+}
+.staff_icon{
+    color: saddlebrown;
+    cursor: pointer;
+}
+.staff_images{
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+/* .staff_image{
+    box-shadow: saddlebrown;
+    margin: 1rem
+} */
+@media (max-width:767px){
+    .staff_imagey{
+        transform: translateX(791px);
+        transition-property: transform;
+        transition-duration: 4s;
+        opacity: 1;
+    }
+   
+    
+.footer_icon_flex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 52px;
+    width: 91%;
+    margin: auto;
+}
+     .staff_slider{
+       
+        height: 800px;
+    }
+    .staff_container{
+        padding: 1rem 1rem;
+    
+    }
+ } 

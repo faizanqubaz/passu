@@ -1,0 +1,78 @@
+.signup_main_slider{
+ 
+  height: 800px;
+}
+.signup_cantainer{
+  padding: 1rem 3rem;
+}
+.signup_slider{
+  width: 75%;
+  height: 500px;
+  padding: 3rem 2rem;
+  box-shadow: 1px -1px 13px 3px;
+  background-color: rgb(220, 0, 78);
+  border-radius: 19px
+}
+.main{
+  text-align: center;
+  padding: 3rem 27rem;
+}
+.signup_divider{
+  height: 2px;
+  background-color: white;
+  width: 100%;
+}
+.signup_heading{
+  font-size: 38px;
+  margin-bottom: 14px;
+  margin-top: 4px;
+  color: white;
+}
+.signup_inp{
+  margin-right: 16px;
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 26px;
+  border-radius: 5px;
+  border-color: none;
+  width: 79%;
+  margin-bottom: 12px;
+  outline: none;
+  border: none
+}
+.signup_button{
+  padding-top: 20px;
+}
+.signup_main_inp{
+ padding-top: 44px;
+}
+.signup_btn{
+  box-shadow: inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15), inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+  padding: 0.6em 2.6em;
+  /* background-color: #3369ff; */
+  background-color: #3369ff;
+  color: white;
+  outline: none;
+  border-color: none;
+  border-style: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+
+@media(max-width:1000px){
+  
+  .main{
+      padding: 0;
+
+  }
+  .signup_slider{
+      width: 82%;
+      margin-top: 103px;
+  }
+  .signup_cantainer{
+      padding: 2rem 1rem;
+  }
+}
