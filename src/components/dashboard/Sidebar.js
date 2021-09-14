@@ -37,7 +37,7 @@ const Slidebar = (props) => {
 								<Drafts style={{ color: "#ffffff" }} />
 							</ListItemIcon>
 							<ListItemText primary="Charts" />
-						</ListItem>
+					</ListItem>
 
 					</Link>
 
